@@ -16,6 +16,16 @@ It is intended to help understand how technical support scam pages are structure
 
 ---
 
+## Source Material & Ethical Use
+
+This repository is based on a **modified version of a technical support scam page that was publicly available in the past**.  
+All harmful elements—including live phone numbers, tracking scripts, malware, and active social engineering mechanisms—have been **removed or disabled**.
+
+The inclusion of real-world scam structures is solely for **analysis, education, and defensive security research**.  
+Any attempt to restore, deploy, or reuse this content for **deceptive, fraudulent, or scam-related purposes is strictly prohibited and unethical**.
+
+---
+
 ## LICENSE
 
 This project is provided **for educational and learning purposes only**.  
