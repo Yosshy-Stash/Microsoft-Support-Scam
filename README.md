@@ -16,7 +16,7 @@ It is intended to help understand how technical support scam pages are structure
 
 ---
 
-## License
+## LICENSE
 
 This project is provided **for educational and learning purposes only**.  
 Commercial use, redistribution, or use for deceptive activities is not permitted.
