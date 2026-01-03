@@ -3,6 +3,7 @@
 This repository is provided **strictly for educational and research purposes only**.  
 It is intended to help understand how technical support scam pages are structured and operate.
 
+**This project is not affiliated with, endorsed by, or associated with Microsoft in any way.**  
 **Any use for real-world scams, deception, or social engineering is strictly prohibited.**
 
 ---
