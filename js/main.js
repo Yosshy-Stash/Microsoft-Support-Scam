@@ -1,7 +1,8 @@
 
   $(document).ready(function() {
    var audioElement = document.createElement('audio');
-   audioElement.setAttribute('src', '../audio/webs.mp4');
+   audioElement.setAttribute('src', 'audio/webs.mp4');
+   audioElement.volume = 0.3;
 
    audioElement.addEventListener('ended', function() {
        this.play();
@@ -33,7 +34,7 @@
 
   $(document).ready(function() {
    var audioElement = document.createElement('audio');
-   audioElement.setAttribute('src', '../audio/visudk.mp4');
+   audioElement.setAttribute('src', 'audio/visudk.mp4');
 
    audioElement.addEventListener('ended', function() {
        this.play();
@@ -62,4 +63,3 @@
    });
 
 });
-
