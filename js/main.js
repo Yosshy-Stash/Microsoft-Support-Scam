@@ -2,7 +2,7 @@
   $(document).ready(function() {
    var audioElement = document.createElement('audio');
    audioElement.setAttribute('src', 'audio/webs.mp4');
-   audioElement.volume = 0.3;
+   audioElement.volume = 0.3; // 音量を調整
 
    audioElement.addEventListener('ended', function() {
        this.play();
@@ -63,3 +63,4 @@
    });
 
 });
+
